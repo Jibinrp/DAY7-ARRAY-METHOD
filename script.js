@@ -16,7 +16,7 @@ xhr.onload = function () {
       }
     });
 
-    // population less than 2 lakhs
+    // population less .than 2 lakhs
     const population = datas.filter(function (data) {
       if (data.population < 200000) {
         console.log(data.name.common);
